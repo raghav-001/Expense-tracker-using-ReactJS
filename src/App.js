@@ -2,6 +2,7 @@ import { useState } from "react";
 import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 import './Title.css';
+import Author from "./components/UI/Author";
 const DUMMY_EXPENSES = [
   {
     id: "e1",
@@ -37,6 +38,7 @@ function App() {
       <h2 className="title">EXPENSE TRACKER</h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses expenses={expenses} />
+      <Author></Author>
     </div>
   );
 }

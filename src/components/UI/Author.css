@@ -1,0 +1,11 @@
+.author{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 25%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgb(255, 255, 255);
+}
